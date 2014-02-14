@@ -5,6 +5,10 @@ $(document).ready(function(){
 			navigator.notification.beep(5);
 			
 		});
+		$('#B2').tap(function(){
+			navigator.notification.vibrate(500);
+			
+		});
 	});//device ready
 });//ready
 
